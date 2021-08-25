@@ -142,4 +142,4 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 <br>
 
 <img src="https://www.fabfile.org/_static/logo.png" width="160" height="auto"/>
-*Fabric*
+* Fabric *
