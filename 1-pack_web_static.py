@@ -9,10 +9,10 @@ from datetime import datetime
 def do_pack():
     """ This function compresses files """
     local("mkdir -p versions")
-    tarball_result = local("tar -cvzf versions/web_static_{}.tgz web_static"
-          .format(datetime.strftime(datetime.now(), "%Y%m%d%H%M%S")),
-          capture=True)
+    tar_result = local("tar -cvzf versions/web_static_{}.tgz web_static".format
+                       (datetime.strftime(datetime.now(), "%Y%m%d%H%M%S")),
+                       capture=True)
 
-    if tarball_result.failed:
+    if tar_result.failed:
         return None
-    return tarball_result
+    return tar_result
