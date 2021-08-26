@@ -141,5 +141,5 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 ```
 <br>
 
-<img src="https://www.fabfile.org/_static/logo.png" width="160" height="auto"/>
+<img src="https://avatars.githubusercontent.com/u/400481?s=200&v=4" width="160" height="auto"/>
 * Fabric *
