@@ -1,6 +1,6 @@
 # AirBnB clone - Web framework
 
-<img src="https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png" width="160" height="200"/>
+<img src="https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png" width="200" height="200"/>
 
 
 
