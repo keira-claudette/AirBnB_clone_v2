@@ -11,7 +11,7 @@ import os
 import re
 
 
-env.hosts = ['35.229.69.71', '34.74.144.76']
+env.hosts = ['34.138.67.216', '34.74.144.76']
 
 
 def do_pack():
