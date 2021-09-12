@@ -12,7 +12,7 @@ def hello():
 
 
 @app.route('/hbnb', strict_slashes=False)
-def hello():
+def hbnb():
     """Returns a string to the root route /hbnb"""
     return "HBNB"
 
