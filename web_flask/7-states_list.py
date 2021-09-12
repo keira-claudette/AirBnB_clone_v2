@@ -3,16 +3,17 @@
 
 from models import storage
 from models.state import State
-from flask import Flask, render_template
+from flask import Flask
+from flask import render_template
 app = Flask(__name__)
 
 
-@app.route('/cities_by_states', strict_slashes=False)
-def cities():
-    """Returns a rendered html template
-    at the /cities_by_states route,
-    listing the cities by states"""
-    return render_template('8-cities_by_states.html',
+@app.route('/states_list', strict_slashes=False)
+def states():
+    """Returns a rendered jinja html template
+    at the /states_list route,
+    listing all the states"""
+    return render_template('7-states_list.html',
                            states=storage.all('State').values())
 
 
