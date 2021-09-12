@@ -2,6 +2,8 @@
 
 <img src="https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png" width="160" height="auto"/>
 
+
+
 This repository explores Flask and it's functionalities.
 
 
