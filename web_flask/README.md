@@ -1,6 +1,6 @@
 # AirBnB clone - Web framework
 
-<img src="https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png" width="200" height="200"/>
+<img src="https://techwithtim.net/wp-content/uploads/2019/10/1200px-Flask_logo.svg_.png" width="160" height="auto"/>
 
 
 
