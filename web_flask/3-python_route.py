@@ -23,7 +23,7 @@ def c_text(text):
     return "C " + str(text.replace("_", " "))
 
 
-@app.route('/python', defaults={"text" : "is cool"}, strict_slashes=False)
+@app.route('/python', defaults={"text": "is cool"}, strict_slashes=False)
 @app.route('/python/<text>', strict_slashes=False)
 def python_text(text):
     """Returns a string to the route /python/<text>"""
