@@ -24,10 +24,8 @@ def c_text(text):
 
 
 @app.route('/python/(<text>)', strict_slashes=False)
-def python_text(text=None):
+def python_text(text="cool"):
     """Returns a string to the route /python/(<text>)"""
-    if (text is None):
-        text = "cool"
     return "C " + str(text.replace("_", " "))
 
 
