@@ -7,4 +7,7 @@
 ```
 pip3 install Flask
 ```
-
+###### or
+```
+sudo apt install python3-flask
+```
