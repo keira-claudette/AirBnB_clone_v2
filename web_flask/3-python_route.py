@@ -27,7 +27,7 @@ def c_text(text):
 @app.route('/python/<text>', strict_slashes=False)
 def python_text(text):
     """Returns a string to the route /python/<text>"""
-    return "C " + str(text.replace("_", " "))
+    return "Python " + str(text.replace("_", " "))
 
 
 if __name__ == "__main__":
