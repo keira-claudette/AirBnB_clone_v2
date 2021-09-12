@@ -26,3 +26,4 @@ This image offers a clearer illustration of the implementation.
 
 
 [pass multiple parameters to render_template using `**locals()`](https://stackoverflow.com/questions/12096522/render-template-with-multiple-variables)
+[Peep into this flask templating resource ](https://www.fullstackpython.com/flask-templating-render-template-examples.html)
