@@ -23,3 +23,6 @@ sudo apt install python3-flask
 This image offers a clearer illustration of the implementation.
 
 ![image](https://user-images.githubusercontent.com/68082012/132990197-dcbb1f22-67af-423f-b5ad-abfbbc47baff.png)
+
+
+[pass multiple parameters to render_template using `**locals()`](https://stackoverflow.com/questions/12096522/render-template-with-multiple-variables)
