@@ -18,3 +18,8 @@ pip3 install Flask
 ```
 sudo apt install python3-flask
 ```
+
+###### For task 7: 7-states_list.py
+This image offers a clearer illustration of the implementation.
+
+![image](https://user-images.githubusercontent.com/68082012/132990197-dcbb1f22-67af-423f-b5ad-abfbbc47baff.png)
