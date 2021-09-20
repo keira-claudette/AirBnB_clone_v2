@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ This test is for the database storage class"""
 
-import unittests
+import unittest
 from os import getenv
 from models.base_model import BaseModel, Base
 from models.user import User
@@ -17,7 +17,7 @@ import pep8
 import MySQLdb
 
 
-class TestDBStorage(unittests.TestCase):
+class TestDBStorage(unittest.TestCase):
     """ Tests for class attributes and methods
         Attributes:
                    __engine
